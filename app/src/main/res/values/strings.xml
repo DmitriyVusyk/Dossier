@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">CardApp</string>
-    <string name="firstName">firstName</string>
-    <string name="lastName">lastName</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
     <string name="contactImage">contactImage</string>
+    <string name="first_name_label">First Name:</string>
+    <string name="last_name_label">Last Name:</string>
+    <string name="birthday_label">Birthday:</string>
+    <string name="birthday">08.01.2019</string>
+    <string name="age_label">Age:</string>
+    <string name="age">22</string>
 </resources>
