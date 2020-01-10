@@ -43,9 +43,9 @@ public class ContactsActivity extends AppCompatActivity implements OnRecyclerVie
     }
 
     @Override
-    public void onItemClicked(int position) {
+    public void onItemClicked(ContactEntity contact) {
         Intent intent = new Intent(this, DossierActivity.class);
-        intent.putExtra("position", position);
+        //intent.putExtra("contact", contact);
         startActivityForResult(intent, 1);
     }
 }

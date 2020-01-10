@@ -31,8 +31,9 @@ public class ContactListAdapter extends RecyclerView.Adapter<ContactListAdapter.
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public ContactListAdapter(ContactEntity[] myDataset) {
-        dataSet = myDataset;
+    public ContactListAdapter(ContactEntity[] contacts, OnRecyclerViewItemClickListener onRecyclerViewItemClickListener) {
+        dataSet = contacts;
+        this.onRecyclerViewItemClickListener = onRecyclerViewItemClickListener;
     }
 
     // Create new views (invoked by the layout manager)
